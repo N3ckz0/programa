@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Contenedor principal*/
+.container{
+	height: 100vh;
+}
+/*Formulario*/
+.form{
+	width: 50%;
+	height: auto;
+	padding: 25px;
+	border-radius: 15px;
+}

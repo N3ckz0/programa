@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BANCO</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container d-flex justify-content-center align-items-center">
+		<form action="#" method="POST" class="form border">
+			<div class="form-group mb-3">
+				<label for="name">Name</label>
+				<input type="text" name="name" class="form-control" required>
+			</div>
+			<div class="form-group mb-3">
+				<label for="rfc" class="form-label">RFC</label>
+				<input type="text" name="rfc" class="form-control" required>
+			</div>
+			<div class="form-group mb-3">
+				<label for="birthdate" class="form-label">Birthdate</label>
+				<input type="date" name="birthdate" class="form-control" required>
+			</div>
+			<div class="form-group mb-3">
+				<label for="income" class="form-label">Income</label>
+				<input type="number" name="income" class="form-control" required>
+			</div>
+			<div class="form-group mb-3">
+				<label for="amount" class="form-label">Amount</label>
+				<input type="number" name="amount" class="form-control" required>
+			</div>
+			<div class="form-group mb-3">
+				<label class="form-label">Have you bank history?</label>
+				<div class="form-check">
+					<label for="yes" class="form-check-label">Yes</label>
+					<input type="radio" name="history" class="form-check-input">
+				</div>
+				<div class="form-check">
+					<label for="no" class="form-check-label">No</label>
+					<input type="radio" name="history" class="form-check-input" checked>
+				</div>
+			</div>
+			<div class="form-group mb-3 d-flex justify-content-center align-items-center">
+				<button class="btn btn-primary btn-lg w-50">SEND</button>
+			</div>
+			<div class="alert alert-danger" role="alert">
+  				Lo sentimos, eres menor de edad
+			</div>
+		</form>
+	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
